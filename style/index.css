@@ -11,7 +11,7 @@ body {
 }
 
 .header, .footer {
-    background-color: #1F2937;
+    background-color: rgba(31,41,55, 0.7);
     display: flex;
 }
 
@@ -24,4 +24,33 @@ a {
     text-decoration: none;
     color: #eee;
     margin: 5px;
+}
+
+.left, .right {
+    width: 500px;
+    height: auto;
+    color: #eee;
+}
+
+.teleimg {
+    width: 100%;
+    height: auto;
+    opacity: 0.65;
+}
+
+.teleimg:hover {
+    opacity: 1;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #1F2937;
+    background-color: rgba(31,41,55, 0.6);
+}
+
+.logo {
+    width:50px;
+    height: auto;
 }
