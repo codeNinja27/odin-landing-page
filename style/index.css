@@ -74,6 +74,10 @@ a {
     background-color: rgba(31,41,55, 0.6);
 }
 
+audio {
+    display: none;
+}
+
 .logo {
     width:50px;
     height: auto;
@@ -98,13 +102,22 @@ a {
     gap: 40px;
 }
 
-.imgdivs span {
-    display: none;
+.subdesc {
     text-align: center;
+    overflow: hidden;
+    line-height: 50px;
+    transition: all 1.3s ease-in-out;
+    height: 0;
+    width: 320px;
+    color: purple;
 }
 
-.imgdivs span:hover {
+.subimg:hover + .subdesc {
     display: block;
+    color: #eee;
+    height: 200px;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 5px;
 }
 
 .subimg {
