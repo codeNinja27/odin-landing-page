@@ -59,6 +59,7 @@ a {
     color:#eee;
 }
 
+
 .left p {
     line-height: 1.5em;
 }
@@ -78,6 +79,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 5px;
+    gap: 10px;
     background-color: rgba(31,41,55, 0.6);
 }
 
