@@ -215,3 +215,7 @@ a {
     justify-content: center;
     padding: 20px;
 }
+
+.imgs:hover + .qcontainer {
+    opacity: 0.2;
+}
