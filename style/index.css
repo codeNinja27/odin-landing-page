@@ -173,17 +173,20 @@ a {
     background-color: rgba(31,41,55, 0.7);
     border-radius: 25px;
     padding: 10px;
+    border: 1px solid;
+    border-color:rgba(10, 10, 10, 0);
+}
+
+.quotes:hover {
+    border: 1px solid purple;
 }
 
 .quote {
     color: #eee;
     text-align: center;
     font-size: large;
-    line-height: 2.2em;
-}
-
-.quote:hover {
-    color: rgb(238, 40, 238);
+    line-height: 2.4em;
+    font-style: italic;
 }
 
 /* how to point at one element and change another. the element in need of change has to be afte the pointed one*/
